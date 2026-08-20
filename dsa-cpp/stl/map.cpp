@@ -58,5 +58,17 @@ int main(){
     }
 
 
+    map<int, int> ordermap;
+    ordermap[4] = 5;
+    ordermap[1] = 2;
+    ordermap[2] = 3;
+
+    for(auto& val : ordermap){
+        cout << val.first << " : " << val.second;
+    }
+
+
+
+
     return 0;
 } 
